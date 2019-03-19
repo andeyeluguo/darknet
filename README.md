@@ -1,3 +1,7 @@
+darknet的代码的注释阅读，主要在原理细节 
+方面的阅读
+
+
 ![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
 
 # Darknet #
