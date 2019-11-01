@@ -9,7 +9,7 @@
 #include <assert.h>
 #include <string.h>
 #include <stdlib.h>
-
+//制作 yolo层
 layer make_yolo_layer(int batch, int w, int h, int n, int total, int *mask, int classes)
 {
     int i;
@@ -80,6 +80,7 @@ void resize_yolo_layer(layer *l, int w, int h)
 #endif
 }
 
+//得到box
 box get_yolo_box(float *x, float *biases, int n, int index, int i, int j, int lw, int lh, int w, int h, int stride)
 {
     box b;
